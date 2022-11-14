@@ -6,6 +6,7 @@ build = "build.rs"
 license = "MIT"
 description = "Rust bindings for the grass-audio library"
 repository = "https://github.com/lpradopostigo/grass-audio-rs"
+exclude = ["grass-audio/test/sample-files/*"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
